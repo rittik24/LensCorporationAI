@@ -13,6 +13,10 @@ import co2 from "./Co_2.webp";
 import co3 from "./Co_3.webp";
 import grov from "./grov.webp";
 import map from "./map.webp";
+import facebook from "./facebook.webp";
+import insta from "./insta.webp";
+import linkedin from "./linkedin.webp";
+import twitter from "./twitter.webp";
 
 export {
     home1st,
@@ -29,5 +33,9 @@ export {
     co2,
     co3,
     grov,
-    map
+    map,
+    linkedin,
+    facebook,
+    insta,
+    twitter
 }
