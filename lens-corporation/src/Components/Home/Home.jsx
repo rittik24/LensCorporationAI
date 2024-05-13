@@ -167,7 +167,7 @@ const Home = ({ darkMode }) => {
 
             </div>
             {/* 3rd div */}
-            <div className={`flex flex-col justify-center items-center w-full items-center py-2 bg-gradient-to-r from-gr-5 via-white to-gr-4`}>
+            <div className={`flex flex-col justify-center items-center w-full items-center py-2 ${darkMode ? 'bg-black' : 'bg-gradient-to-r from-gr-5 via-white to-gr-4'}`}>
                 <div className='flex flex-col justify-center items-center py-2 gap-2'>
                     <h1 className='text-2xl font-semibold font-raleway'>SERVICES</h1>
                     <div className={`w-20 h-1 ${darkMode ? 'bg-white' : 'bg-indigo-500'} to-white rounded-xl`}></div>
