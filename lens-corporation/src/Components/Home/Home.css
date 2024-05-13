@@ -132,7 +132,7 @@
 .images{
   width: fit-content;
     white-space: nowrap;
-    animation: scroll 5s linear infinite;
+    animation: scroll 8s linear infinite;
 }
 
 

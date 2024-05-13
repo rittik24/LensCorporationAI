@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     fontFamily: {
         'popin': ['Poppins', 'sans-serif'],
+        'raleway': ['Raleway', 'sans-serif'],
     },
     gradientColorStops: theme => ({
       'gr-4': theme('colors.blue.200'),

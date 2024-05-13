@@ -49,12 +49,12 @@ const Navbar = ({ toggleDarkMode }) => {
                     {showMenu ? <MdClose size={35} /> : <MdMenu size={35} />}
                 </button>
             </div>
-            <ul className={`hidden md:flex items-center space-x-8 px-8 absolute top-1/2 transform -translate-y-1/2 right-8 ${darkMode ? 'text-white' : 'text-black'}`}>
-                <li><a href="#" className="font-normal font-sans">MakeMyWeb</a></li>
-                <li><a href="#" className="font-serif">Home</a></li>
-                <li><a href="#" className="font-serif">Company</a></li>
-                <li><a href="#" className="font-serif">Blogs</a></li>
-                 <li><button onClick={handleDarkModeToggle} className="font-serif">{darkMode ? <MdWbSunny /> : <MdDarkMode />}</button></li>
+            <ul className={`hidden md:flex items-center space-x-8 px-8 absolute top-1/2 transform -translate-y-1/2 right-14 ${darkMode ? 'text-white' : 'text-black'}`}>
+                <li><a href="#" className="font-normal font-popin text-base">MakeMyWeb.</a></li>
+                <li><a href="#" className="font-popin text-base">Home</a></li>
+                <li><a href="#" className="font-popin text-base">Company</a></li>
+                <li><a href="#" className="font-popin text-base">Blogs</a></li>
+                 <li><button onClick={handleDarkModeToggle} className="font-serif text-xl mt-2">{darkMode ? <MdWbSunny className='w-6 h-6' /> : <MdDarkMode className='w-6 h-6'/>}</button></li>
             </ul>
             <MobileMenu isOpen={showMenu} onClose={toggleMenu} toggleDarkMode={handleDarkModeToggle} darkMode={darkMode} />
         </nav>

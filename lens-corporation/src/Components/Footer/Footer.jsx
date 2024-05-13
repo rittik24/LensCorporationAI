@@ -15,19 +15,19 @@ const Footer = ({ darkMode }) => {
                         <img src={twitter} alt="twitter" className='w-5 h-5' />
                     </div>
                 </div>
-                <div class='w-full lg:w-1/4 flex flex-col justify-center items-center px-4 py-4'>
-                    <h1 className='text-lg lg:text-2xl font-semibold mb-3 lg:mb-5'>SITEMAP</h1>
-                    <h1 className='text-sm lg:text-base font-popin'>MakeMyWeb.</h1>
-                    <h1 className='text-sm lg:text-base font-popin'>Services</h1>
-                    <h1 className='text-sm lg:text-base font-popin'>Products</h1>
-                    <h1 className='text-sm lg:text-base font-popin'>Blogs</h1>
-                    <h1 className='text-sm lg:text-base font-popin'>Life at LENS</h1>
+                <div class='w-full lg:w-1/4 flex flex-col justify-center items-center md:items-start px-4 py-4'>
+                    <h1 className='text-lg lg:text-2xl font-raleway font-semibold mb-3 lg:mb-5'>SITEMAP</h1>
+                    <h1 className='text-sm lg:text-base font-raleway'>MakeMyWeb.</h1>
+                    <h1 className='text-sm lg:text-base font-raleway'>Services</h1>
+                    <h1 className='text-sm lg:text-base font-raleway'>Products</h1>
+                    <h1 className='text-sm lg:text-base font-raleway'>Blogs</h1>
+                    <h1 className='text-sm lg:text-base font-raleway'>Life at LENS</h1>
                 </div>
-                <div class='w-full lg:w-1/4 flex flex-col justify-center items-center px-4 py-4'>
-                    <h1 className='text-lg lg:text-2xl font-semibold mb-3 lg:mb-5'>CONNECT</h1>
-                    <h1 className='text-sm lg:text-base font-popin'>+1-517-9300-792</h1>
-                    <h1 className='text-sm lg:text-base font-popin'>+91-9990-736-796</h1>
-                    <h1 className='text-sm lg:text-base font-popin'>solutions@lenscorp.ai</h1>
+                <div class='w-full lg:w-1/4 flex flex-col justify-center items-center md:items-start px-4 py-4'>
+                    <h1 className='text-lg lg:text-2xl font-raleway font-semibold mb-3 lg:mb-5'>CONNECT</h1>
+                    <h1 className='text-sm lg:text-base font-raleway'>+1-517-9300-792</h1>
+                    <h1 className='text-sm lg:text-base font-raleway'>+91-9990-736-796</h1>
+                    <h1 className='text-sm lg:text-base font-raleway'>solutions@lenscorp.ai</h1>
                 </div>
             </div>
             <div class={`w-full flex flex-col lg:flex-row justify-around items-center ${darkMode ? 'bg-black text-white' : 'bg-indigo-950'} py-4 lg:py-8`}>
